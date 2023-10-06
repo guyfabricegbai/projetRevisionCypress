@@ -1,0 +1,17 @@
+{
+  "name": "projetrevisioncypress",
+  "version": "1.0.0",
+  "description": "Projet de revision de CYPRESS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runProjetRevisionCypress": "cypress run --spec cypress/e2e/1-getting-started/todo.cy.js", 
+    "openProjetRevisionCypress": "cypress open cypress/e2e/1-getting-started/todo.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.0"
+  }
+}
